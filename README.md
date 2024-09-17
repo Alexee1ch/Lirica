@@ -1,2 +1,2 @@
 # Lirica
-Testing design system
+Design system
