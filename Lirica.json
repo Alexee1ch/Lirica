@@ -101,6 +101,22 @@
         "value": "{Neutral.5}",
         "type": "color"
       },
+      "icon": {
+        "default": {
+          "value": "{Neutral.10}",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "{Neutral.6}",
+          "type": "color"
+        }
+      },
+      "text": {
+        "link": {
+          "value": "#2F54EB",
+          "type": "color"
+        }
+      },
       "danger": {
         "value": "#FF4D4F",
         "type": "color"
@@ -111,22 +127,6 @@
       },
       "": {
         "value": "{Neutral.6}",
-        "type": "color"
-      }
-    },
-    "icon": {
-      "default": {
-        "value": "{Neutral.10}",
-        "type": "color"
-      },
-      "disabled": {
-        "value": "{Neutral.6}",
-        "type": "color"
-      }
-    },
-    "text": {
-      "link": {
-        "value": "#2F54EB",
         "type": "color"
       }
     },
@@ -168,7 +168,7 @@
         "type": "typography"
       }
     },
-    "Body": {
+    "body": {
       "extra-lg": {
         "value": {
           "fontFamily": "Roboto",
@@ -220,6 +220,15 @@
           "fontSize": "14",
           "lineHeight": "22",
           "fontWeight": "Bold"
+        },
+        "type": "typography"
+      },
+      "md-code": {
+        "value": {
+          "fontFamily": "JetBrains Mono",
+          "fontSize": "14",
+          "lineHeight": "22",
+          "fontWeight": "Regular"
         },
         "type": "typography"
       },
