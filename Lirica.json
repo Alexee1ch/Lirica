@@ -54,48 +54,6 @@
         "type": "color"
       }
     },
-    "Red": {
-      "1": {
-        "value": "#FFF1F0",
-        "type": "color"
-      },
-      "2": {
-        "value": "#FFCCC7",
-        "type": "color"
-      },
-      "3": {
-        "value": "#FFA39E",
-        "type": "color"
-      },
-      "4": {
-        "value": "#FF7875",
-        "type": "color"
-      },
-      "5": {
-        "value": "#FF4D4F",
-        "type": "color"
-      },
-      "6": {
-        "value": "#F5222D",
-        "type": "color"
-      },
-      "7": {
-        "value": "#CF1322",
-        "type": "color"
-      },
-      "8": {
-        "value": "#A8071A",
-        "type": "color"
-      },
-      "9": {
-        "value": "#820014",
-        "type": "color"
-      },
-      "10": {
-        "value": "#5C0011",
-        "type": "color"
-      }
-    },
     "system": {
       "divider": {
         "value": "{Neutral.5}",
@@ -125,7 +83,7 @@
         "value": "#FAAD14",
         "type": "color"
       },
-      "": {
+      "disabled": {
         "value": "{Neutral.6}",
         "type": "color"
       }
@@ -250,6 +208,118 @@
         },
         "type": "typography"
       }
+    },
+    "Border": {
+      "full": {
+        "value": "1000",
+        "type": "borderRadius"
+      },
+      "lg": {
+        "value": "{Border.md} * 2",
+        "type": "borderRadius"
+      },
+      "md": {
+        "value": "{Border.sm} * 2",
+        "type": "borderRadius"
+      },
+      "sm": {
+        "value": "4",
+        "type": "borderRadius"
+      }
+    },
+    "default": {
+      "4": {
+        "value": "4",
+        "type": "sizing"
+      },
+      "8": {
+        "value": "8",
+        "type": "sizing"
+      },
+      "12": {
+        "value": "12",
+        "type": "sizing"
+      },
+      "16": {
+        "value": "16",
+        "type": "sizing"
+      },
+      "20": {
+        "value": "20",
+        "type": "sizing"
+      },
+      "24": {
+        "value": "24",
+        "type": "sizing"
+      },
+      "28": {
+        "value": "28",
+        "type": "sizing"
+      },
+      "32": {
+        "value": "32",
+        "type": "sizing"
+      },
+      "36": {
+        "value": "36",
+        "type": "sizing"
+      },
+      "40": {
+        "value": "40",
+        "type": "sizing"
+      },
+      "44": {
+        "value": "44",
+        "type": "sizing"
+      },
+      "48": {
+        "value": "48",
+        "type": "sizing"
+      },
+      "64": {
+        "value": "64",
+        "type": "sizing"
+      },
+      "80": {
+        "value": "80",
+        "type": "sizing"
+      },
+      "96": {
+        "value": "96",
+        "type": "sizing"
+      },
+      "112": {
+        "value": "112",
+        "type": "sizing"
+      },
+      "128": {
+        "value": "128",
+        "type": "sizing"
+      }
+    },
+    "xxsmall": {
+      "value": "2",
+      "type": "spacing"
+    },
+    "xsmall": {
+      "value": "4",
+      "type": "spacing"
+    },
+    "small": {
+      "value": "8",
+      "type": "spacing"
+    },
+    "medium": {
+      "value": "12",
+      "type": "spacing"
+    },
+    "large": {
+      "value": "16",
+      "type": "spacing"
+    },
+    "xlarge": {
+      "value": "24",
+      "type": "spacing"
     }
   },
   "Light": {
